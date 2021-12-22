@@ -31,7 +31,7 @@ module "eks" {
   map_roles = [
     {
       groups = ["system:masters"]
-      rolearn = "arn:aws:iam::314301073530:role/lambda_role"
+      rolearn = "arn:aws:iam::314301073530:role/lambda_Eks_role"
       username = "lambda"
     },
   ]
